@@ -77,7 +77,7 @@
                 return 'light';
             };
 
-            const configDefault = 'light';
+            const configDefault = 'dark';
             const currentTheme = window.localStorage && window.localStorage.getItem('theme');
             const initialTheme = currentTheme || configDefault || getSystemTheme();
             const isDark = initialTheme === 'dark';
@@ -253,7 +253,7 @@
             return 'light';
         };
 
-        const configDefault = 'light';
+        const configDefault = 'dark';
         const savedTheme = localStorage.getItem('theme');
         const theme = savedTheme || configDefault || getSystemTheme();
 
@@ -271,7 +271,7 @@
         <div class="mod-head__logo">
             <a href="/">
                 
-                <img class="avatar" alt="avatar" src="/images/theme/微信图片_20260312091438_610_112.jpg">
+                <img class="avatar" alt="avatar" src="/images/avatar.png">
                 
             </a>
         </div>
@@ -381,7 +381,7 @@
         
     </nav>
 
-    <div class="Copyright">Copyright &copy; <span class="current-year"></span> <a href="https:// 1992606.xyz">Gridea Pro</a></div>
+    <div class="Copyright">Copyright &copy; <span class="current-year"></span> <a href="https:// 1992606.xyz">半山游记</a></div>
     <script>document.querySelector('.current-year').textContent = new Date().getFullYear();</script>
 
     <div class="index_footer">
