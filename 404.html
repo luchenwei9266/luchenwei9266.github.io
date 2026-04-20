@@ -80,7 +80,7 @@
                 return 'light';
             };
 
-            const configDefault = 'dark';
+            const configDefault = 'light';
             const currentTheme = window.localStorage && window.localStorage.getItem('theme');
             const initialTheme = currentTheme || configDefault || getSystemTheme();
             const isDark = initialTheme === 'dark';
@@ -276,7 +276,7 @@
             return 'light';
         };
 
-        const configDefault = 'dark';
+        const configDefault = 'light';
         const savedTheme = localStorage.getItem('theme');
         const theme = savedTheme || configDefault || getSystemTheme();
 
@@ -294,7 +294,7 @@
         <div class="mod-head__logo">
             <a href="/">
                 
-                <img class="avatar" alt="avatar" src="/images/avatar.png">
+                <img class="avatar" alt="avatar" src="/images/theme/微信图片_20260312091438_610_112.jpg">
                 
             </a>
         </div>

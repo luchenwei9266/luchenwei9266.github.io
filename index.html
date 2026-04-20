@@ -80,7 +80,7 @@
                 return 'light';
             };
 
-            const configDefault = 'dark';
+            const configDefault = 'light';
             const currentTheme = window.localStorage && window.localStorage.getItem('theme');
             const initialTheme = currentTheme || configDefault || getSystemTheme();
             const isDark = initialTheme === 'dark';
@@ -304,7 +304,7 @@
             return 'light';
         };
 
-        const configDefault = 'dark';
+        const configDefault = 'light';
         const savedTheme = localStorage.getItem('theme');
         const theme = savedTheme || configDefault || getSystemTheme();
 
@@ -322,7 +322,7 @@
         <div class="mod-index__logo">
             <a href="/">
                 
-                <img class="mod-index__logo" alt="avatar" src="/images/avatar.png">
+                <img class="mod-index__logo" alt="avatar" src="/images/theme/微信图片_20260312091438_610_112.jpg">
                 
             </a>
         </div>
@@ -339,7 +339,7 @@
 
                 <div class="zuobiao">
                     <i class="ico_map"></i>
-                    中国 · 深圳
+                    广州
                     <span style="margin-left: 30px">
                         <!-- Sun (Light Mode) -->
                         <button id="theme-toggle-sun" class="tiptap-button theme-toggle-sun"
